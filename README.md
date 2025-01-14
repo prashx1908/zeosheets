@@ -7,8 +7,8 @@ ZeoSheets is a web application designed to mimic the user interface and function
 
 ## Links
 
-- **Project Link**: [https://prashx1908.github.io/zeosheets/](#) 
-- **Live Demo**: [ZeoSheets Demo](#) 
+- **Project Link**: [ZeoSheets Live Link ](https://prashx1908.github.io/zeosheets/) 
+- **Live Demo**: [ZeoSheets Demo](https://youtu.be/kCHCtftw-t0) 
 
 ---
 
