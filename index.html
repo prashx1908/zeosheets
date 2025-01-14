@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ZeoSheets</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header id="header">
+    <h1>ZeoSheets</h1>
+
+    </header>
+    <div id="toolbar">
+        <button id="bold-btn">B</button>
+        <button id="italics-btn">I</button>
+        <button id="underline-btn">U</button>
+        <button id="left-btn">Left</button>
+        <button id="center-btn">Center</button>
+        <button id="right-btn">Right</button>
+        <select id="font-style-dropdown">
+            <option value="serif">Serif</option>
+            <option value="sans-serif">Sans Serif</option>
+            <option value="monospace">Monospace</option>
+            <option value="cursive">Cursive</option>
+        </select>
+        <select id="font-size-dropdown">
+            <option value="10px">10</option>
+            <option value="12px">12</option>
+            <option value="14px">14</option>
+            <option value="16px">16</option>
+            <option value="18px">18</option>
+        </select>
+    
+        <button id="cut-btn">Cut</button>
+        <button id="copy-btn">Copy</button>
+        <button id="paste-btn">Paste</button>
+        <button onclick="downloadMatrix()">Download</button>
+        <input id="upload-input" type="file" accept=".json" />
+        <button id="save-sheet-btn">Save</button>
+        <button id="add-sheet-btn">Add Sheet</button>
+        <button id="delete-sheet-btn">Delete Sheet</button>
+    </div>
+    <div id="button-container">
+        <button id="sheet-1" onclick="viewSheet(event)">Sheet 1</button>
+    </div>
+    <div id="functions">
+        <h3>Mathematical Functions</h3>
+        <button onclick="applyFunction('sum')">SUM</button>
+        <button onclick="applyFunction('difference')">DIFF</button>
+        <button onclick="applyFunction('average')">AVERAGE</button>
+        <button onclick="applyFunction('max')">MAX</button>
+        <button onclick="applyFunction('min')">MIN</button>
+        <button onclick="applyFunction('count')">COUNT</button>
+        <h3>Data Quality Functions</h3>
+        <button onclick="applyFunction('trim')">TRIM</button>
+        <button onclick="applyFunction('upper')">UPPER</button>
+        <button onclick="applyFunction('lower')">LOWER</button>
+        <button onclick="applyFunction('removeDuplicates')">REMOVE DUPLICATES</button>
+        <button onclick="applyFunction('findAndReplace')">FIND AND REPLACE</button>
+        <input type="text" id="find-text" placeholder="Find Text">
+        <input type="text" id="replace-text" placeholder="Replace Text">
+    </div>
+    <table id="my-table">
+        <thead>
+            <tr id="table-heading-row">
+                <th></th>
+            </tr>
+        </thead>
+        <tbody id="table-body">
+        </tbody>
+    </table>
+    <script src="script.js"></script>
+</body>
+
+</html>
