@@ -67,9 +67,6 @@ ZeoSheets is a web application designed to mimic the user interface and function
 ### 1. ZeoSheets Interface
 ![Interface Screenshot](./screenshots/interface.png)
 
-### 2. Toolbar and Formatting Options
-![Toolbar Screenshot](./screenshots/toolbar.png)
-
 ### 3. Mathematical Functions
 ![Mathematical Functions Screenshot](./screenshots/functions.png)
 
