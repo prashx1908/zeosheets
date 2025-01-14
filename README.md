@@ -17,14 +17,14 @@ ZeoSheets is a web-based spreadsheet application that allows users to create, ed
 ZeoSheets is a simple yet powerful spreadsheet application built with HTML, CSS, and JavaScript. It provides various formatting options and data manipulation functions to enhance the user experience.
 
 ## Live Link
-[Live Demo](#) <!-- Replace with the actual live link -->
+[Live Demo](#) 
 
 ## Demo Video
-[Demo Video](#) <!-- Replace with the actual demo video link -->
+[Demo Video](#) 
 
 ## Screenshots
-![Screenshot 1](#) <!-- Replace with the actual screenshot link -->
-![Screenshot 2](#) <!-- Replace with the actual screenshot link -->
+![Screenshot 1](screenshots/screenshot1.png) 
+![Screenshot 2](screenshots/screenshot2.png) 
 
 ## Features
 - **Formatting Options**: Bold, Italics, Underline, Text Alignment, Font Style, Font Size, Background Color, Font Color.
