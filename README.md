@@ -67,10 +67,10 @@ ZeoSheets is a web application designed to mimic the user interface and function
 ### 1. ZeoSheets Interface
 ![Interface Screenshot](./screenshots/interface.png)
 
-### 3. Mathematical Functions
+### 2. Mathematical Functions
 ![Mathematical Functions Screenshot](./screenshots/functions.png)
 
-### 4. Data Quality Functions
+### 3. Data Quality Functions
 ![Data Quality Functions Screenshot](./screenshots/data_quality.png)
 
 
